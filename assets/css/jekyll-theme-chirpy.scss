@@ -1,0 +1,33 @@
+---
+---
+
+@use 'main
+{%- if jekyll.environment == ' production ' -%}
+  .bundle
+{%- endif -%}
+';
+
+#sidebar #avatar {
+  width: 100%;
+  height: fit-content;
+  border-radius: 0 !important;
+}
+
+#sidebar #avatar img {
+  width: 100%;
+}
+
+#sidebar .site-title {
+  display: none !important;
+}
+
+/*#sidebar {
+  background-image: url(/assets/img/site/Respawned.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#sidebar .profile-wrapper {
+  visibility: hidden;
+}
+*/
